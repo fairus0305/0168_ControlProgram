@@ -22,5 +22,7 @@ int main(){
     cout << "masukan nilai Matematika= ";
     cin >> nilMT;
 
-    
+    rerata = Rata_rata(nilBI,nilMT);
+
+    cout << "status kelulusan =" << Status_lulus(rerata) << " ,dengan nilai rerata = " << rerata << endl;
 }
